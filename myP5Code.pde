@@ -11,11 +11,14 @@ void setup() {
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  fill(160,49,126)
+ 
+ //Rhombus
+ fill(160,49,126)
 quad(118,102,253,108,272,288,130,288)
 fill(153,31,107)
   ellipse(193,194,90,130)
   fill(200,0,0)
+  //Circle
   noFill()
 arc(185,188,20,10,radians(180), radians(360))
 fill(0,0,0)
@@ -24,7 +27,8 @@ fill(200,0,0)
 arc(188,200,20,10,radians(180), radians(360))
 fill(0,0,0)
 fill(200,0,0)
-  noFill()
+ // Half Circle
+ noFill()
 arc(196,216,20,10,radians(180), radians(360))
 fill(0,0,0)
 fill(0,0,0)
